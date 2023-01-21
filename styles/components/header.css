@@ -1,0 +1,54 @@
+/* ----------- Header -----------*/
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.header__logoText {
+    font: var(--headline5);
+    color: var(--primary);
+}
+
+.header__navigationList {
+    list-style: none;
+    color: var(--white);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.header__navigationItem {
+    color: var(--white);
+    font: var(--button);
+    cursor: pointer;
+}
+
+.header__navigationItem--link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header__navigationItem--link:active {
+    color: var(--secondary);
+    color: var(--primary);
+}
+
+.header__navigationItem:visited {
+    color: var(--primary);
+}
+
+.header__buttonText {
+    font: var(--button);
+    background-color: var(--primary);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: .75rem 1.5rem;
+    border-radius: .25rem;
+    border: none;
+}
