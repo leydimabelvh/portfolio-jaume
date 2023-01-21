@@ -1,4 +1,5 @@
 @import './components/header.css';
+@import './components/introduction.css';
 
 :root {
     --primary: #310a90;
@@ -15,7 +16,6 @@
     --body2: 400 0.875rem/1.4157500267028809rem Poppins;
     --button: 700 0.875rem/1.4157500267028809rem Poppins;
     --caption: 400 0.75rem/1.2135000228881836rem Poppins;
-    /* font-family: 'Poppins', sans-serif; */
 }
 
 body {
@@ -27,5 +27,8 @@ body {
     background-color: var(--gradient-2);
     background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
     min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 8rem;
+    padding-right: 8rem;
 }
 
