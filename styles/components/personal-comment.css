@@ -1,0 +1,45 @@
+.personalComment__container {
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.personalComment__wrapper {
+    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personalComment__content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.personalComment__description {
+    font-size: 2.125rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.personalComment__info {
+    font: var(--headline5);
+}
+
+.personalComment__iconContainer {
+    text-align: center;
+}
+
+.personalComment__iconWrapper {
+    background-color: transparent;
+    border: none;
+}
+
+.personalComment__icon {
+    width: 5.0325rem;
+    height: 5.0325rem;
+}

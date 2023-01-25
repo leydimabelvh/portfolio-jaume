@@ -1,5 +1,6 @@
 @import './components/header.css';
 @import './components/introduction.css';
+@import './components//personal-comment.css';
 
 :root {
     --primary: #310a90;
@@ -21,6 +22,7 @@
 body {
     padding: 0;
     margin: 0;
+    color: var(--primary);
 }
 
 .body {
