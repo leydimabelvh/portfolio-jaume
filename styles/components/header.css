@@ -1,4 +1,15 @@
 /* ----------- Header -----------*/
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__wrapper {
+    max-width: 70.75rem;
+    width: 100%;
+}
+
 .header__content {
     display: flex;
     justify-content: space-between;
