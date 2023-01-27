@@ -1,4 +1,11 @@
+.introduction__infoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .introduction__infoWrapper {
+    max-width: 70.75rem;
     padding-top: 1.5rem;
 }
 
