@@ -8,8 +8,14 @@
 
 .project__content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     gap: 1.5rem;
+    max-width: 70.75rem;
+}
+
+.project__content--three {
+    gap: 20rem;
 }
 
 .project__description {
