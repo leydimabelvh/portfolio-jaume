@@ -3,6 +3,7 @@
 @import './components//personal-comment.css';
 @import './components//project.css';
 @import './components//review.css';
+@import './components//contact.css';
 
 :root {
     --primary: #310a90;
