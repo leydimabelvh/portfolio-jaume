@@ -1,0 +1,40 @@
+.form__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form__label {
+    color: var(--primary);
+    font: var(--headline5);
+    margin-bottom: .5rem
+}
+
+.form__inputText {
+    box-sizing: border-box;
+    width: 100%;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    font: var(--body1);
+    border-radius: .5rem;
+    border-color: #858C94;
+    border-width: 1px;
+}
+
+.form__textArea {
+    font: var(--body1);
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border-color: #858C94;
+    border-width: 1px;
+}
+
+.form__button {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: .75rem 1.5rem;
+    font: var(--button);
+    letter-spacing: 1.125px;
+    border-radius: .25rem;
+    border-color: var(--primary);
+}
