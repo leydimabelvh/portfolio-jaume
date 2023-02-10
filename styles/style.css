@@ -37,3 +37,9 @@ body {
     padding-right: 8rem;
 }
 
+@media screen and (max-width: 575.98px) {
+    .body {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
