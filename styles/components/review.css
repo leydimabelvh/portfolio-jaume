@@ -19,13 +19,14 @@
     gap: 1.5rem;
 }
 
-
 .review__userImageContainer {
     overflow: hidden;
 }
 
 .review__userImage {
     vertical-align: middle;
+    width: 5rem;
+    height: 5rem;
 }
 
 .review__comment {
@@ -40,4 +41,33 @@
     font: var(--headline5);
     opacity: 0.5;
     text-align: center;
+}
+
+@media screen and (max-width: 767.98px) {
+    .review__content {
+        padding: 1.5rem;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .review__userImageContainer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .review__userImage {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .review__comment {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+    }
+
+    .review__author {
+        font: var(--caption);
+        text-align: left;
+    }
 }
