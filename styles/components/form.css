@@ -10,6 +10,10 @@
     margin-bottom: .5rem
 }
 
+.form__label--obligatory {
+    color: #DA1414;
+}
+
 .form__inputText {
     box-sizing: border-box;
     width: 100%;
@@ -27,6 +31,7 @@
     border-radius: .5rem;
     border-color: #858C94;
     border-width: 1px;
+    padding: .75rem 1rem;
 }
 
 .form__button {
@@ -37,4 +42,10 @@
     letter-spacing: 1.125px;
     border-radius: .25rem;
     border-color: var(--primary);
+}
+
+@media screen and (max-width: 767.98px) {
+    .form__label {
+        font-size: 1rem;
+    }
 }
