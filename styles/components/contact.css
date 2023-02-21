@@ -34,7 +34,24 @@
 
 .contact__info {
     color: var(--white);
+    font: var(--body1);
     text-align: center;
     margin: 0;
+}
+
+@media screen and (max-width: 767.98px) {
+    .contact__content {
+        align-items: flex-start;
+    }
+
+    .contact__titleContainer {
+        width: auto;
+        font: var(--headline5);
+        text-align: left;
+    }
+
+    .contact__info {
+        text-align: left;
+    }
 }
 
